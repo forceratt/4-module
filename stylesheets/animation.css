@@ -1,0 +1,23 @@
+@keyframes loveanim {
+  0% {
+    background-image: url(../images/love1.svg);
+  }
+  25% {
+    background-image: url(../images/love2.svg);
+  }
+  50% {
+    background-image: url(../images/love3.svg);
+  }
+  75% {
+    background-image: url(../images/love4.svg);
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

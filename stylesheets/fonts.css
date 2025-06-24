@@ -1,6 +1,18 @@
 @font-face {
   font-family: "Inter";
   src: url("../fonts/Inter-Regular.otf") format("opentype");
-  font-weight: normal;
+  font-weight: 700;
   font-style: normal;
+}
+@font-face {
+  font-family: "InterBlack";
+  src: url("../fonts/inter-black.otf") format("opentype");
+  font-weight: 700;
+  font-style: bold;
+}
+@font-face {
+  font-family: "IntroBlack";
+  src: url("../fonts/intro-black.ttf") format("truetype");
+  font-weight: 700;
+  font-style: bold;
 }

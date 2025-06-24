@@ -1,6 +1,11 @@
 * {
   box-sizing: border-box;
 }
+section {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
 body {
   display: block;
   font-family: "Inter";
@@ -12,14 +17,447 @@ body {
   justify-content: center;
   align-items: center;
 }
-.glav {
-  font-size: 5vw;
-  margin: 2vw;
+.navbar {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+  height: 5vw;
 }
-.button {
-  display: inline-block;
-  margin: 2vw;
-  color: black;
+.menu {
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1.3vw;
+}
+.about {
+  background-size: cover;
+  position: absolute;
+  color: white;
   text-decoration: none;
+  font-size: 1.8vw;
+  font-family: Inter;
+}
+.shop {
+  position: relative;
+  margin-right: vw;
+  margin-left: 73vw;
+  color: white;
+  text-decoration: none;
+  font-size: 1.8vw;
+  font-family: Inter;
+}
+.logo {
+  height: 3vw;
+  width: 6vw;
+  margin-top: -0.4vw;
+  margin-left: 1vw;
+  z-index: 1001;
+  background-size: cover;
+  position: absolute;
+  background-image: url(../images/logo.svg);
+}
+
+.section1main {
+  display: flex;
+  flex-direction: row;
+  height: 57vw;
+}
+.back {
+  background-image: url(../images/фонглавная.svg);
+  width: 100vw;
+  height: 57vw;
+  background-size: cover;
+  position: absolute;
+}
+.lovetext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 4vw;
+  margin-top: 9vw;
+  margin-left: 3vw;
+  font-family: IntroBlack;
+  line-height: 1.3;
+}
+.bigger {
+  font-size: 6vw;
+}
+
+.place {
+  background-size: cover;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 3vw;
+  margin-top: 25vw;
+  margin-left: 47vw;
+  font-family: IntroBlack;
+  text-align: right;
+}
+.placefont {
+  font-family: Inter;
+}
+.tickets {
+  background-image: url(../images/tickets1.svg);
+  background-size: cover;
+  position: absolute;
+  height: 13vw;
+  width: 64vw;
+  margin-top: 40vw;
+  margin-left: 16vw;
+}
+.section2main {
+  background-color: black;
+  width: 100vw;
+  height: 5vw;
+  display: flex;
+}
+.runningline {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+.line {
+  background-size: cover;
+  position: absolute;
+  color: white;
+  font-size: 4vw;
+  margin-top: 0.5vw;
+  font-family: IntroBlack;
+  display: inline-block;
+  animation: scroll 5s linear infinite;
+}
+.section3main {
+  display: flex;
+  flex-direction: row;
+  height: 100vw;
+}
+.saluki {
+  background-image: url(../images/saluki.svg);
+  background-size: cover;
+  position: absolute;
+  height: 50vw;
+  width: 50vw;
+}
+.t-fest {
+  background-image: url(../images/t-fest.svg);
+  background-size: cover;
+  position: absolute;
+  height: 50vw;
+  width: 50vw;
+  margin-left: 50vw;
+}
+.anika {
+  background-image: url(../images/anika.svg);
+  background-size: cover;
+  position: absolute;
+  height: 50vw;
+  width: 50vw;
+  margin-top: 50vw;
+}
+.sqvozbab {
+  background-image: url(../images/sqvozbab.svg);
+  background-size: cover;
+  position: absolute;
+  height: 50vw;
+  width: 50vw;
+  margin-top: 50vw;
+  margin-left: 50vw;
+}
+.image-darken {
+  filter: brightness(50%);
+  transition: filter 0.3s ease;
+}
+.image-darken:hover {
+  filter: brightness(100%);
+}
+
+.saluk {
+  margin-top: 43vw;
+  margin-left: 2vw;
+  background-size: cover;
+  position: absolute;
+  color: #c73301;
+  font-size: 4vw;
+  font-family: IntroBlack;
+}
+.t-fe {
+  margin-top: 43vw;
+  margin-left: 52vw;
+  background-size: cover;
+  position: absolute;
+  color: #c73301;
+  font-size: 4vw;
+  font-family: IntroBlack;
+}
+.anik {
+  margin-left: 2vw;
+  margin-top: 93vw;
+  background-size: cover;
+  position: absolute;
+  color: #c73301;
+  font-size: 4vw;
+  font-family: IntroBlack;
+}
+.sq {
+  margin-top: 93vw;
+  margin-left: 52vw;
+  background-size: cover;
+  position: absolute;
+  color: #c73301;
+  font-size: 4vw;
+  font-family: IntroBlack;
+}
+.podval {
+  background-color: black;
+  width: 100vw;
+  height: 15vw;
+  display: flex;
+}
+.pod {
+  margin-left: 2vw;
+  margin-top: 11vw;
+  font-size: 1.5w;
+  color: white;
+  font-family: Inter;
+  background-size: cover;
+  position: absolute;
+}
+.info {
+  margin-left: 83vw;
+  margin-top: 8.5vw;
+  font-size: 1.5vw;
+  color: white;
+  font-family: Inter;
+  background-size: cover;
+  position: absolute;
+  line-height: 1.3;
+}
+.sectiontickets {
+  display: flex;
+  flex-direction: row;
+  height: 56.5vw;
+}
+.backtic {
+  background-image: url(../images/фонбилеты.svg);
+  width: 100vw;
+  height: 56.5vw;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+}
+.muz {
+  margin-left: 8vw;
+  margin-top: 12vw;
+  font-size: 3vw;
+  color: rgb(0, 0, 0);
+  font-family: IntroBlack;
+  background-size: cover;
+  position: absolute;
+  line-height: 1.3;
+}
+.bigger1 {
+  font-size: 4vw;
+}
+.placetime {
+  background-image: url(../images/placetime.svg);
+  background-size: cover;
+  position: absolute;
+  height: 3.5vw;
+  width: 70vw;
+  margin-top: 20vw;
+  margin-left: 8vw;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  font-size: 3vw;
+  margin-top: 28vw;
+}
+.counter2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  font-size: 3vw;
+  margin-top: 7vw;
+}
+button {
+  width: 3vw;
+  height: 3vw;
   font-size: 2vw;
+  margin-left: 8vw;
+  margin-right: 7vw;
+  cursor: pointer;
+  border: none;
+  border-radius: 3vw;
+  background-color: #ca3502;
+
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000000;
+}
+.counter2 button {
+  background-color: #ca3502;
+}
+
+.counter2 button:hover {
+  background-color: #000000;
+}
+
+.vertical {
+  flex-direction: column;
+  background-size: cover;
+  position: absolute;
+}
+.tickmed {
+  margin-left: 40vw;
+  margin-top: 28.3vw;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  background-size: cover;
+  position: absolute;
+  line-height: 1.3;
+}
+.threeth {
+  margin-left: 75vw;
+  margin-top: 28.3vw;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  background-size: cover;
+  position: absolute;
+  line-height: 1.3;
+}
+.tickvip {
+  margin-left: 40vw;
+  margin-top: 38.3vw;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  background-size: cover;
+  position: absolute;
+  line-height: 1.3;
+}
+.sixth {
+  margin-left: 75vw;
+  margin-top: 38.3vw;
+  font-size: 2vw;
+  color: rgb(0, 0, 0);
+  font-family: Inter;
+  background-size: cover;
+  position: absolute;
+  line-height: 1.3;
+}
+
+.openModalBth {
+  all: unset;
+  background-image: url(../images/buy.svg);
+  background-size: cover;
+  position: absolute;
+  width: 41vw;
+  height: 9vw;
+  margin-top: 45vw;
+  margin-left: 28vw;
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  background-size: cover;
+  position: absolute;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 20vh auto;
+  padding: 2vw;
+  border-radius: 1vw;
+  width: 80vw;
+  height: 40vw;
+
+  position: relative;
+}
+.textinmodal {
+  font-size: 3vw;
+  font-family: IntroBlack;
+  margin-top: 15vw;
+  margin-left: 18vw;
+}
+
+.close {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.section1about {
+  display: flex;
+  height: 56.5vw;
+}
+
+#video-bg {
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 56.5vw;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.content {
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  margin-top: 15vw;
+  margin-left: 3vw;
+  font-size: 3vw;
+  text-align: left;
+  font-family: IntroBlack;
+}
+.colorecha {
+  color: #c73301;
+}
+.section2about {
+  display: flex;
+  height: 52vw;
+  background-color: black;
+}
+.mokup2mod {
+  background-image: url(../images/mokup2.svg);
+  background-size: cover;
+  position: absolute;
+  width: 50vw;
+  height: 40vw;
+  margin-left: 43vw;
+  margin-top: 5vw;
+}
+
+.mokup2text {
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  margin-top: 15vw;
+  margin-left: 3vw;
+  font-size: 3vw;
+  text-align: left;
+  font-family: InterBlack;
+  text-decoration: none;
 }

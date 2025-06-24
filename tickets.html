@@ -4,9 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Билеты</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <script src="../4-module/javascripts/js-animation.js" defer></script>
   </head>
   <body>
-    <h1>Билеты</h1>
-    <a href="index.html" class="button">На главную</a>
+    <header class="navbar">
+      <nav class="menu">
+        <li><a href="index.html" class="logo link-about"></a></li>
+        <li><a href="shop.html " class="shop">магазин</a></li>
+        <li><a href="about.html" class="about">о фестивале </a></li>
+      </nav>
+    </header>
+    <section class="sectiontickets">
+      <div class="backtic"></div>
+      <p class="muz">
+        <span class="bigger1">RUMBLE </span>музыкальный фестиваль
+      </p>
+      <div class="placetime"></div>
+      <div class="vertical">
+        <div class="counter">
+          <button id="decrease">−</button>
+          <span id="value">0</span>
+          <button id="increase">+</button>
+        </div>
+        <div class="counter2">
+          <button id="minus-btn">−</button>
+          <span id="number-display">0</span>
+          <button id="plus-btn">+</button>
+        </div>
+      </div>
+      <p class="tickmed">Входной билет (Стандарт)</p>
+      <p class="threeth">3 000 ₽</p>
+      <p class="tickvip">Входной билет (VIP)</p>
+      <p class="sixth">6 500 ₽</p>
+      <button class="openModalBth" id="openModalBtn"></button>
+
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span id="closeModalBtn" class="close">&times;</span>
+          <p class="textinmodal">Спасибо за покупку!</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
