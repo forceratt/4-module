@@ -179,7 +179,7 @@ body {
   margin-left: 2vw;
   background-size: cover;
   position: absolute;
-  color: #c73301;
+  color: #1736d2;
   font-size: 4vw;
   font-family: IntroBlack;
 }
@@ -188,7 +188,7 @@ body {
   margin-left: 52vw;
   background-size: cover;
   position: absolute;
-  color: #c73301;
+  color: #1736d2;
   font-size: 4vw;
   font-family: IntroBlack;
 }
@@ -197,7 +197,7 @@ body {
   margin-top: 93vw;
   background-size: cover;
   position: absolute;
-  color: #c73301;
+  color: #1736d2;
   font-size: 4vw;
   font-family: IntroBlack;
 }
@@ -206,7 +206,7 @@ body {
   margin-left: 52vw;
   background-size: cover;
   position: absolute;
-  color: #c73301;
+  color: #1736d2;
   font-size: 4vw;
   font-family: IntroBlack;
 }
@@ -295,7 +295,7 @@ button {
   cursor: pointer;
   border: none;
   border-radius: 3vw;
-  background-color: #ca3502;
+  background-color: #1736d2;
 
   color: rgb(0, 0, 0);
   transition: background-color 0.3s;
@@ -305,7 +305,7 @@ button:hover {
   background-color: #000000;
 }
 .counter2 button {
-  background-color: #ca3502;
+  background-color: #1736d2;
 }
 
 .counter2 button:hover {
@@ -411,7 +411,7 @@ button:hover {
   height: 56.5vw;
 }
 
-#video-bg {
+.video-bg {
   background-size: cover;
   position: absolute;
   width: 100vw;
@@ -432,7 +432,7 @@ button:hover {
   font-family: IntroBlack;
 }
 .colorecha {
-  color: #c73301;
+  color: #1736d2;
 }
 .section2about {
   display: flex;
@@ -452,12 +452,290 @@ button:hover {
 .mokup2text {
   background-size: cover;
   position: absolute;
-  z-index: 1;
   color: rgb(255, 255, 255);
   margin-top: 15vw;
-  margin-left: 3vw;
+  margin-left: 7vw;
   font-size: 3vw;
   text-align: left;
   font-family: InterBlack;
   text-decoration: none;
+}
+.section3about {
+  display: flex;
+  height: 180vw;
+  background-color: black;
+}
+.djcoral {
+  background-image: url(../images/djcoral.svg);
+  background-size: cover;
+  position: absolute;
+  width: 80vw;
+  height: 35vw;
+  margin-left: 9vw;
+  margin-top: 4vw;
+}
+.djcoraltext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-left: 9vw;
+  font-size: 2vw;
+  font-family: IntroBlack;
+}
+.karaoke {
+  background-image: url(../images/karaoke.svg);
+  background-size: cover;
+  position: absolute;
+  width: 80vw;
+  height: 35vw;
+  margin-left: 9vw;
+  margin-top: 50vw;
+}
+.karaoketext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-left: 9vw;
+  margin-top: 46vw;
+  font-size: 2vw;
+  font-family: IntroBlack;
+}
+.artzone {
+  background-image: url(../images/artzone.svg);
+  background-size: cover;
+  position: absolute;
+  width: 80vw;
+  height: 35vw;
+  margin-left: 9vw;
+  margin-top: 96vw;
+}
+.artzonetext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-left: 9vw;
+  margin-top: 92vw;
+  font-size: 2vw;
+  font-family: IntroBlack;
+}
+.deti {
+  background-image: url(../images/deti.svg);
+  background-size: cover;
+  position: absolute;
+  width: 80vw;
+  height: 35vw;
+  margin-left: 9vw;
+  margin-top: 142vw;
+}
+.detitext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-left: 9vw;
+  margin-top: 138vw;
+  font-size: 2vw;
+  font-family: IntroBlack;
+}
+.section4about {
+  display: flex;
+  height: 52vw;
+  background-color: black;
+}
+.mokup3 {
+  background-image: url(../images/mokup3.svg);
+  background-size: cover;
+  position: absolute;
+  width: 60vw;
+  height: 40vw;
+  margin-left: 17vw;
+  margin-top: 7vw;
+}
+.mokup3text {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 6vw;
+  margin-left: 23vw;
+  font-size: 2vw;
+  text-align: left;
+  font-family: InterBlack;
+  text-decoration: none;
+}
+.section1shop {
+  display: flex;
+  height: 105vw;
+  background-color: black;
+}
+.bag {
+  background-image: url(../images/bag.svg);
+  background-size: cover;
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin-top: 5vw;
+}
+.cap {
+  background-image: url(../images/cap.svg);
+  background-size: cover;
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin-top: 5vw;
+  margin-left: 50vw;
+}
+.t-shirt {
+  background-image: url(../images/t-shirt.svg);
+  background-size: cover;
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin-top: 55vw;
+}
+
+.desk {
+  background-image: url(../images/desk.svg);
+  background-size: cover;
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  margin-top: 55vw;
+  margin-left: 50vw;
+}
+.sectionitems {
+  display: flex;
+  height: 56.5vw;
+  background-color: black;
+}
+.photoitems {
+  background-image: url(../images/photoitems1.svg);
+  background-size: cover;
+  position: absolute;
+  width: 50vw;
+  height: 56.5vw;
+}
+.cappng {
+  background-image: url(../images/cappng.svg);
+  background-size: cover;
+  position: absolute;
+  width: 40vw;
+  height: 25vw;
+  margin-top: 17vw;
+  margin-left: 30vw;
+}
+.captext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 19vw;
+  margin-left: 73vw;
+  font-size: 5vw;
+  text-align: left;
+  font-family: InterBlack;
+  text-decoration: none;
+}
+.predzakaz {
+  background-image: url(../images/predzakaz.svg);
+  background-size: cover;
+  position: absolute;
+  width: 28vw;
+  height: 7vw;
+  margin-top: 45vw;
+  margin-left: 67vw;
+}
+.bagpng {
+  background-image: url(../images/bagpng.png);
+  background-size: cover;
+  position: absolute;
+  width: 33vw;
+  height: 50vw;
+  margin-top: 5vw;
+  margin-left: 30vw;
+}
+.t-shirtpng {
+  background-image: url(../images/t-shirtpng.svg);
+  background-size: cover;
+  position: absolute;
+  width: 62vw;
+  height: 50vw;
+  margin-top: 5vw;
+  margin-left: 12vw;
+}
+.ttext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 15vw;
+  margin-left: 70vw;
+  font-size: 5vw;
+  text-align: left;
+  font-family: InterBlack;
+  text-decoration: none;
+}
+.deskpng {
+  background-image: url(../images/deskpng.svg);
+  background-size: cover;
+  position: absolute;
+  width: 33vw;
+  height: 51vw;
+  margin-top: 5vw;
+  margin-left: 30vw;
+}
+.desktext {
+  background-size: cover;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  margin-top: 15vw;
+  margin-left: 65vw;
+  font-size: 5vw;
+  text-align: left;
+  font-family: InterBlack;
+  text-decoration: none;
+}
+
+.sectionform {
+  display: flex;
+  height: 56.5vw;
+  background-color: black;
+}
+
+.container {
+  margin-top: 10vw;
+  margin-left: 27vw;
+  background: white;
+  border-radius: 8px;
+  height: 30vw;
+  width: 50vw;
+  font-family: InterBlack;
+}
+
+form h2 {
+  margin-top: 2vw;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-left: 2vw;
+  margin-top: 2vw;
+}
+
+input {
+  width: 30vw;
+  padding: 1vw;
+  margin-left: 1vw;
+  margin-bottom: 2vw;
+  border: 0.09vw solid #1736d2;
+  border-radius: 1vw;
+}
+
+.buttonform {
+  all: unset;
+  background-image: url(../images/formbutton.svg);
+  background-size: cover;
+  position: absolute;
+  width: 20vw;
+  height: 5vw;
+  margin-left: -16vw;
+  margin-top: 7vw;
+  cursor: pointer;
 }

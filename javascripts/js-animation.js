@@ -55,3 +55,19 @@ window.addEventListener("click", (e) => {
     modal.style.display = "none";
   }
 });
+
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+
+    if (name && email) {
+      alert(`Спасибо, ${name}! Мы свяжемся с вами по адресу ${email}.`);
+      this.reset();
+    } else {
+      alert("Пожалуйста, заполните все поля.");
+    }
+  });

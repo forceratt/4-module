@@ -3,10 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Форма</title>
+    <title>Предзаказ</title>
+    <link rel="stylesheet" href="stylesheets/style.css" />
+    <script src="../4-module/javascripts/js-animation.js" defer></script>
+    <link rel="icon" type="image/png" href=".//images/faficon.png" />
   </head>
   <body>
-    <h1>Форма</h1>
-    <a href="index.html" class="button">На главную</a>
+    <header class="navbar">
+      <nav class="menu">
+        <li><a href="index.html" class="logo link-about"></a></li>
+        <li><a href="shop.html " class="shop">магазин</a></li>
+        <li><a href="about.html" class="about">о фестивале </a></li>
+      </nav>
+    </header>
+
+    <section class="sectionform">
+      <div class="container">
+        <form id="contact-form">
+          <h2>Оформление предзаказа</h2>
+          <label for="name">Имя:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Электронная почта:</label>
+          <input type="email" id="email" name="email" required />
+
+          <button class="buttonform" type="submit"></button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
